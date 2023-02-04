@@ -7,7 +7,7 @@ def get():
     return "Hello World"
     
 @app.route(rule='/xyz', methods=['GET'])
-def get():
+def xyz():
     return "Hello Wellcome"
 
 if __name__=='__main__':
